@@ -12,6 +12,9 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 # Install EsLint
 
 npm install eslint eslint-plugin-react eslint-plugin-react-hooks -D
-npm install @typescript-eslint/eslint-plugin -D
-"eslint-plugin-react": "^7.37.1",
+npm install @typescript-eslint/eslint-plugin -D,
 "eslint-plugin-react-hooks": "^5.0.0",
+
+# Clean IOS
+
+npx expo prebuild -p ios --clean
