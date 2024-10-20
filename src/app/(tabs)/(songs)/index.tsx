@@ -4,7 +4,7 @@ import { defaultStyles } from '@/styles'
 const SongsScreen = () => {
 	return (
 		<View style={defaultStyles.container}>
-			<Text style={defaultStyles.text}>SongsScreen</Text>
+			<Text style={[defaultStyles.text, { marginTop: 100 }]}>SongsScreen</Text>
 		</View>
 	)
 }
